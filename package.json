@@ -3,7 +3,13 @@
   "version": "1.0.2",
   "description": "Automatically gets the `minver` version of the project and adds to Vite's define",
   "main": "src/index.js",
-  "scripts": {},
+  "exports": {
+    "import": "./src/index.js",
+    "require": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wetrustinprize/vite-plugin-minverversion"
@@ -13,9 +19,12 @@
     "vite",
     "vite-plugin"
   ],
-  "author": "Peterson \"Prize\" Adami Candido",
+  "author": "wetrustinprize",
   "license": "MIT",
   "devDependencies": {
     "vite": "*"
-  }
+  },
+  "files": [
+    "src"
+  ]
 }
