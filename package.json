@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-minverversion",
+  "version": "1.0.0",
+  "description": "Automatically gets the `minver` version of the project and adds to Vite's define",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com/wetrustinprize/vite-plugin-minverversion"
+  },
+  "keywords": [
+    "minver",
+    "vite",
+    "vite-plugin"
+  ],
+  "author": "Peterson \"Prize\" Adami Candido",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "*"
+  }
+}
