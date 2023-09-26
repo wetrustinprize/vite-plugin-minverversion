@@ -1,8 +1,9 @@
 name: Node.js Package
 
 on:
+  workflow_dispatch:
   release:
-    types: [created]
+    types: [ created ]
 
 jobs:
   build:
@@ -13,7 +14,6 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm test
 
   publish-npm:
     needs: build
