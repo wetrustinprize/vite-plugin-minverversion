@@ -22,7 +22,7 @@
   "author": "wetrustinprize",
   "license": "MIT",
   "devDependencies": {
-    "vite": "*"
+    "vite": "^4.4.5"
   },
   "files": [
     "src"
